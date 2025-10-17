@@ -47,6 +47,7 @@ These variables were chosen because they **mirror emotional triggers** that infl
   - XGBoost
   - Neural Networks
 - Improve feature engineering to better capture **real-time emotional states**.
+- Create a pipeline to automatically obtain features to enable real-time predictions. 
 
 ---
 
