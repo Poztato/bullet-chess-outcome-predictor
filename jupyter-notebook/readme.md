@@ -8,8 +8,8 @@ This directory contains the **Jupyter notebook** used to train the classificatio
 
 ## 📁 Contents
 
-* **model-training.ipynb** — Notebook implementing the full workflow
-* **Chessica.pkl** — Serialized `RandomForestClassifier` model (`joblib.dump`)
+* **Chessica.ipynb** — Notebook implementing the full workflow
+* **chessica_random_forest.pkl** — Serialized `RandomForestClassifier` model (`joblib.dump`)
 
 ---
 
