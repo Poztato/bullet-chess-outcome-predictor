@@ -1,0 +1,7 @@
+# Preserve exact recovered file bytes across Windows and Linux checkouts.
+# The recovery manifest validates byte-level SHA-256 hashes.
+* -text
+*.png binary
+*.pdf binary
+*.docx binary
+*.pkl binary

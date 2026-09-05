@@ -1,0 +1,1043 @@
+{
+  "date": "2026-09-05",
+  "upstream_repository": "https://github.com/Poztato/bullet-chess-outcome-predictor",
+  "upstream_commit": "f2fedf70995e1db73952f630af71e980b3781d44",
+  "original_local_file_count": 67,
+  "original_github_file_count": 35,
+  "historical_deleted_path_count": 8,
+  "entries": [
+    {
+      "source": "github",
+      "path": "csv-files/Average PR.csv",
+      "size": 455072,
+      "sha256": "e1c635603c964895426f56dd64a98fe52ae73643fa5d81ed929cc85bdf1506f6",
+      "destination": "data/interim/average_pr.csv",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "csv-files/Final Dataset.csv",
+      "size": 263239,
+      "sha256": "abc0b520476d1a3cbf66e2347d8a60dd8b162d7a317d457fa17970559ef76bcf",
+      "destination": "data/processed/final_dataset.csv",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "csv-files/Game Ratings.csv",
+      "size": 113437,
+      "sha256": "942300ab180f193e6ee419124709e3fbbadbf9e3387c9f0cc8ff4759ad159764",
+      "destination": "data/interim/game_ratings.csv",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "csv-files/readme.md",
+      "size": 1937,
+      "sha256": "760cb1b62ec20929b25e5f35e4a0140283262e576445cce9cc3faa5900025f2e",
+      "destination": "archive/documentation/csv-files-readme-2025.md",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "csv-files/Session Cluster.csv",
+      "size": 84375,
+      "sha256": "cb6cb6993be54b409b5447a98df9545698603d94cf6dc47f2217decd54cfce08",
+      "destination": "data/interim/session_cluster.csv",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "csv-files/Streak Record.csv",
+      "size": 93782,
+      "sha256": "8594ab8840ab70227ee4b5e6d58b5f5cea64eaa02a491d4b5a3da7b7854c129e",
+      "destination": "data/interim/streak_record.csv",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Average PR/Absent Check.py",
+      "size": 484,
+      "sha256": "38ca7889a5c9fdf83ea018b229e4466b6407bfd0e210c7d23ab02b2bc7692dfb",
+      "destination": "archive/data-cleaning-code/Average PR/Absent Check.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Average PR/Average PR.py",
+      "size": 1748,
+      "sha256": "602b901492ae1d449262fbf4268b074e2dedab0faf21fd6ce96b67ec061bce23",
+      "destination": "archive/data-cleaning-code/Average PR/Average PR.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Average PR/DupeRemover.py",
+      "size": 1183,
+      "sha256": "ddb744da698503f745ecb21f3fa60e23888f261e52a27bcbac72554986f93246",
+      "destination": "archive/data-cleaning-code/Average PR/DupeRemover.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Data Gathering/AssignGameID.py",
+      "size": 2424,
+      "sha256": "f0108a52cccff5d48beff80eb4b527ffed45f8c3968ee44a57b1ebf12ecf933c",
+      "destination": "archive/data-cleaning-code/Data Gathering/AssignGameID.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Data Gathering/AutoDownload.py",
+      "size": 1007,
+      "sha256": "62619b50e2e14448b2f5668552b8167e3c7e394f7183399c12fb31d56c02020c",
+      "destination": "archive/data-cleaning-code/Data Gathering/AutoDownload.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Data Gathering/GameCounter.py",
+      "size": 367,
+      "sha256": "f94da1e7af85a382ff542d9e95b183363946ccd9c57ff7e8e760e2510cfb0d01",
+      "destination": "archive/data-cleaning-code/Data Gathering/GameCounter.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Data Gathering/GameDateSorter.py",
+      "size": 422,
+      "sha256": "6a1926c81d08c2879d0bb9796d8631fd6145edbbdc2830ab9ab5eb64c62c1d1d",
+      "destination": "archive/data-cleaning-code/Data Gathering/GameDateSorter.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/ELO Difference/ParserBackup.py",
+      "size": 1673,
+      "sha256": "be5944dfc1fb9819f268e2da71515f91a6c6075d6d26f1a6f9ddd7ad07862485",
+      "destination": "archive/data-cleaning-code/ELO Difference/ParserBackup.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/ELO Difference/RatingParser.py",
+      "size": 2119,
+      "sha256": "fcad0a7c87d08e6cfebdd595eec7cdd21b5eaa63538af75684f01751af92d862",
+      "destination": "archive/data-cleaning-code/ELO Difference/RatingParser.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Final Dataset/DataCompilation.py",
+      "size": 1833,
+      "sha256": "e2103218f4b071ee8b174addcc0e0d9241b5a68ed53ee899fb13d05e1f829878",
+      "destination": "archive/data-cleaning-code/Final Dataset/DataCompilation.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Final Dataset/GameCounter.py",
+      "size": 405,
+      "sha256": "5d4129b6aa1d80bf6360407885d5969a89dccfab5db3933064c295607537dffe",
+      "destination": "archive/data-cleaning-code/Final Dataset/GameCounter.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Final Dataset/StreakCorrection.py",
+      "size": 715,
+      "sha256": "4dda8c7a9f3660fca516fac99970c3cdd7295ac4edb10139d63316aaba069516",
+      "destination": "archive/data-cleaning-code/Final Dataset/StreakCorrection.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Final Dataset/UnratedRemoval.py",
+      "size": 961,
+      "sha256": "79f434fba419e3dee1ef86e5af6df6dc31d393cb14bb18a4b0c792941213e651",
+      "destination": "archive/data-cleaning-code/Final Dataset/UnratedRemoval.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Game Session/ClusterCheck.py",
+      "size": 369,
+      "sha256": "8795d64ea67841abb6d0cbfba31b0271b9a8e5882d6130170b5feb514edcaaa4",
+      "destination": "archive/data-cleaning-code/Game Session/ClusterCheck.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Game Session/SessionCluster.py",
+      "size": 3141,
+      "sha256": "adf8df8c7f1139ae97e12b4629860a9d79c8523dfd04e91d972ce96c9de00385",
+      "destination": "archive/data-cleaning-code/Game Session/SessionCluster.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/readme.md",
+      "size": 1071,
+      "sha256": "eb06b63deb428a505646dee156eb58553fd2d8033f1b728f78f8843414d4d8ab",
+      "destination": "archive/data-cleaning-code/readme.md",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/stockfish-analysis/stockfish-script.py",
+      "size": 4720,
+      "sha256": "708a92fdbf6706d6ec0812fdc920318cfcad96ef7273dc01b9f8173c4abd1eda",
+      "destination": "archive/data-cleaning-code/stockfish-analysis/stockfish-script.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "data-cleaning-code/Streak Record/StreakParser.py",
+      "size": 1372,
+      "sha256": "537a11b662793b72cc4718dfe5059bc450202af9b0465ed563c4ca429ab52c93",
+      "destination": "archive/data-cleaning-code/Streak Record/StreakParser.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/ClusterHistogram.py",
+      "size": 859,
+      "sha256": "0a9f01e6187f047192da61b3de5e7548ec8866ad878337b54a3cb3d59afa8600",
+      "destination": "archive/exploratory-data-analysis/ClusterHistogram.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/histograms-eda.pdf",
+      "size": 232330,
+      "sha256": "96b789101fd51e8e92c41c81e68f9b9a34b02c8c8b8f5cadf360a8fd5ad4f3e1",
+      "destination": "reports/eda/histograms-eda.pdf",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/PR-hist-scatterplot.py",
+      "size": 1424,
+      "sha256": "3b9c12b2b3e0d0d492e26ee0ed59e9f5da784c5f4112be626f9068d1597d0c20",
+      "destination": "archive/exploratory-data-analysis/PR-hist-scatterplot.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/RatingHistogram.py",
+      "size": 1789,
+      "sha256": "b93096781dc77da4a9f39717818ea0b249391688643cc6531f5d92fc8609cad6",
+      "destination": "archive/exploratory-data-analysis/RatingHistogram.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/readme.md",
+      "size": 1088,
+      "sha256": "64b6240d7818f31086125acd42ca7c2a2ba210aa19c99e0916cf18cfcdfab21c",
+      "destination": "archive/exploratory-data-analysis/readme.md",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/StreakHistogram.py",
+      "size": 434,
+      "sha256": "1542ac352f31d9f5e65d46589156184027cea4c0edb9a54eb31fe6b9ab00369c",
+      "destination": "archive/exploratory-data-analysis/StreakHistogram.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "exploratory-data-analysis/Winrate.py",
+      "size": 975,
+      "sha256": "92f82f7b635f6f41dc800df11d7649c0a21812c13f2932630d53b83e37624017",
+      "destination": "archive/exploratory-data-analysis/Winrate.py",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "jupyter-notebook/Chessica.ipynb",
+      "size": 187867,
+      "sha256": "20c18f0828d1e6fa0264837a75e947b004149e89413c674fd3ab11ba26d65717",
+      "destination": "archive/notebooks/github-chessica.ipynb",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "jupyter-notebook/chessica_random_forest.pkl",
+      "size": 19450833,
+      "sha256": "d1121740c47bd87f01e4eeb0d655383a0625312de2a8c587b89e6ce0c7a9d53b",
+      "destination": "models/chessica_random_forest.pkl",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "jupyter-notebook/readme.md",
+      "size": 2087,
+      "sha256": "6f280385f508c0c346ffd09e5fc6df8d2a11a2bd6197495a1f2fc528513c86ef",
+      "destination": "archive/documentation/notebook-readme-2025.md",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "github",
+      "path": "README.md",
+      "size": 2323,
+      "sha256": "b43eb45e8e7cf6580f20e91e1126cb0f6a9f04f54edfb342715348fe41ff830a",
+      "destination": "archive/documentation/github-readme-2025.md",
+      "handling": "preserved-exactly",
+      "tracked": true,
+      "ref": "f2fedf70995e1db73952f630af71e980b3781d44"
+    },
+    {
+      "source": "local",
+      "path": ".ipynb_checkpoints/Chessica-checkpoint.ipynb",
+      "size": 191657,
+      "sha256": "1d645596c119134a56465035ee4bed448fd67d34260ce5897a98b0b2cb9f54e4",
+      "destination": "archive/notebooks/local-chessica.ipynb",
+      "handling": "deduplicated-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": ".ipynb_checkpoints/Untitled-checkpoint.ipynb",
+      "size": 72,
+      "sha256": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
+      "destination": ".local-backup/originals/.ipynb_checkpoints/Untitled-checkpoint.ipynb",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "size": 1648,
+      "sha256": "6289358d24866415dbcddcd315ef483f7297787536c68d8b5fbd4bb36e1eac79",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "size": 1165,
+      "sha256": "e982e76d8abf52d2c48a8e1b2a889709e10cdfe5b7ad41bb9dbd664ed3fee884",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/.github/workflows/release.yml",
+      "size": 2856,
+      "sha256": "6e07ccbaccacd84c8fc0b475179b06e8aa619740e0403214789dfe714e899b44",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/.github/workflows/release.yml",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/assets/banner.png",
+      "size": 13510,
+      "sha256": "1c340b61ad8798836d82e39cb91022d2f71b15a1a95d530f7e3ef99efd1f989f",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/assets/banner.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/assets/demo.png",
+      "size": 225733,
+      "sha256": "4ad46cbf05c762a985f623ef696025650873cd336cc6cee11299393c3679193f",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/assets/demo.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/assets/logo.png",
+      "size": 21431,
+      "sha256": "d8790d1ca7b8766c739fcdadcc89a5621d2a7747f4ea1c920f39959437a4c92e",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/assets/logo.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/CHROME_INSTALL.md",
+      "size": 2259,
+      "sha256": "ab0baa44b294e49a3b40faf764e16e3a86da789fbcedb145b076f258cbf49028",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/CHROME_INSTALL.md",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/LICENSE",
+      "size": 1074,
+      "sha256": "69867fed49935ab7b996f713e027659a49ccd0af84813cae9f7c4379b0ad2752",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/LICENSE",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/js/background.js",
+      "size": 1072,
+      "sha256": "5ae12136b8dd719bf96d873fb173029fd0dd328dbdc0dc4fde14730a0957c7ed",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/js/background.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/js/content.js",
+      "size": 11924,
+      "sha256": "ad1f5c2c2b987d8e0a2b5e0776762b242aec14f11898ad0f255359d1cc028417",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/js/content.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/js/polyfill.js",
+      "size": 905,
+      "sha256": "ec0c041a87e5d59bd6cf0510275d4c90e90820b0cb503e9a410fd657c0ea5c26",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/js/polyfill.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/js/popup.js",
+      "size": 2895,
+      "sha256": "f2c828e1284a8f74bd089744f58b1d9bc7d96bf592341f06b4793ae419f77a99",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/js/popup.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/manifest.json",
+      "size": 770,
+      "sha256": "ef71f11b7fdaa23574ed3ee6720733527baaf51d63de6fba5ef0c85a540c35d9",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/manifest.json",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/pub/popup.html",
+      "size": 1070,
+      "sha256": "2c3c7faa5333308312309f146ada4be63bcb6c8ead75f1453342cb0d5d246024",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/pub/popup.html",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/pub/styles.css",
+      "size": 3361,
+      "sha256": "6f8eac5608fe9c13c45524e851d4548a6d760b5d58d6d484fae8eeab1316a600",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/pub/styles.css",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/res/ext_icon_144.png",
+      "size": 21431,
+      "sha256": "d8790d1ca7b8766c739fcdadcc89a5621d2a7747f4ea1c920f39959437a4c92e",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/res/ext_icon_144.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/stockfish/stockfish.js",
+      "size": 1335754,
+      "sha256": "39d33ac9daf84fc8a0c6952bd0ee7a94af79ab9db7dcebad1058cf994914d590",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/stockfish/stockfish.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/stockfish/stockfish.wasm",
+      "size": 550732,
+      "sha256": "e60effbb15499b727345a3c19c67fa300b75bd5db92fea0e2eeefc466dfe3915",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/stockfish/stockfish.wasm",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/chrome/stockfish/stockfish.wasm.js",
+      "size": 113494,
+      "sha256": "0d8765caec18b87503d771e33e50110709b4e87c2ff54b7a6952ba56e1e1d676",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/chrome/stockfish/stockfish.wasm.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/platform/firefox/manifest.json",
+      "size": 668,
+      "sha256": "e45aa6d5209800077759bb9ad806491b4ba50f9ed33089f058456dc128d34dd3",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/platform/firefox/manifest.json",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/README.md",
+      "size": 4546,
+      "sha256": "7d67ad74486c7d39f29864047f35035aaea2008abece898459464f163bb2657b",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/README.md",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/RELEASE.HEAD.md",
+      "size": 361,
+      "sha256": "d455605bd911061d1780f6bd38b7fce34f79a2554bfc0e327fdbe51ea630c2f8",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/RELEASE.HEAD.md",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/js/background.js",
+      "size": 1072,
+      "sha256": "5ae12136b8dd719bf96d873fb173029fd0dd328dbdc0dc4fde14730a0957c7ed",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/js/background.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/js/content.js",
+      "size": 11924,
+      "sha256": "ad1f5c2c2b987d8e0a2b5e0776762b242aec14f11898ad0f255359d1cc028417",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/js/content.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/js/polyfill.js",
+      "size": 905,
+      "sha256": "ec0c041a87e5d59bd6cf0510275d4c90e90820b0cb503e9a410fd657c0ea5c26",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/js/polyfill.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/js/popup.js",
+      "size": 2895,
+      "sha256": "f2c828e1284a8f74bd089744f58b1d9bc7d96bf592341f06b4793ae419f77a99",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/js/popup.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/pub/popup.html",
+      "size": 1070,
+      "sha256": "2c3c7faa5333308312309f146ada4be63bcb6c8ead75f1453342cb0d5d246024",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/pub/popup.html",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/pub/styles.css",
+      "size": 3361,
+      "sha256": "6f8eac5608fe9c13c45524e851d4548a6d760b5d58d6d484fae8eeab1316a600",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/pub/styles.css",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/res/ext_icon_144.png",
+      "size": 21431,
+      "sha256": "d8790d1ca7b8766c739fcdadcc89a5621d2a7747f4ea1c920f39959437a4c92e",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/res/ext_icon_144.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/stockfish/stockfish.js",
+      "size": 1335754,
+      "sha256": "39d33ac9daf84fc8a0c6952bd0ee7a94af79ab9db7dcebad1058cf994914d590",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/stockfish/stockfish.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/stockfish/stockfish.wasm",
+      "size": 550732,
+      "sha256": "e60effbb15499b727345a3c19c67fa300b75bd5db92fea0e2eeefc466dfe3915",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/stockfish/stockfish.wasm",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/src/stockfish/stockfish.wasm.js",
+      "size": 113494,
+      "sha256": "0d8765caec18b87503d771e33e50110709b4e87c2ff54b7a6952ba56e1e1d676",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/src/stockfish/stockfish.wasm.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/tools/make-firefox.sh",
+      "size": 342,
+      "sha256": "ecaba07ccbc23eb5e2631ec5146f4cc209cc08d8841f464a11eb174fa6802138",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/tools/make-firefox.sh",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/tools/setup-chrome.ps1",
+      "size": 1419,
+      "sha256": "a951f17d6912693a7793a045f65c42bccd37b72b4bda684983478af2309c1f09",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/tools/setup-chrome.ps1",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chess-move-analyzer-main/tools/setup-chrome.sh",
+      "size": 772,
+      "sha256": "ba6ef507c0c5350de10cac673033dadf58560d8091de162750834c3c571cb02f",
+      "destination": ".local-backup/originals/chess-move-analyzer-main/tools/setup-chrome.sh",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "chessica.ipynb",
+      "size": 191657,
+      "sha256": "1d645596c119134a56465035ee4bed448fd67d34260ce5897a98b0b2cb9f54e4",
+      "destination": "archive/notebooks/local-chessica.ipynb",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "chessica.png",
+      "size": 302274,
+      "sha256": "d89cb5dcaf901ef53fc5052d284a554f3f56a48d50609fb1a79be6265db59479",
+      "destination": "assets/chessica.png",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "chessica_random_forest.pkl",
+      "size": 19450833,
+      "sha256": "d1121740c47bd87f01e4eeb0d655383a0625312de2a8c587b89e6ce0c7a9d53b",
+      "destination": "models/chessica_random_forest.pkl",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "convert_model.py",
+      "size": 1788,
+      "sha256": "49a49190c2d4285cce4c7993fe784e0c02efa6c00397d0af10f38938aa873e33",
+      "destination": "archive/extension-prototypes/convert_model.py",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/css/depthbar.css",
+      "size": 1047,
+      "sha256": "c45bbf65016ef0b3def47eeca23afd91e2a455b5c833afa0ac9d9bf2e4da59a9",
+      "destination": ".local-backup/originals/Extension/ChessMint/css/depthbar.css",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/css/evalbar.css",
+      "size": 4620,
+      "sha256": "07dc26cdae6c0e4a6054152d50c4fbebc2464311113a0f2b13d13d21815a5871",
+      "destination": ".local-backup/originals/Extension/ChessMint/css/evalbar.css",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/css/material-icon.css",
+      "size": 1765,
+      "sha256": "42a77fa9ccae1a654f337f3d260aad70d46f746ca7def4be52f85201699660e0",
+      "destination": ".local-backup/originals/Extension/ChessMint/css/material-icon.css",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/css/options.css",
+      "size": 4961,
+      "sha256": "fda99f6afdfb1b8e35273fcde60e3cac9d9cdb4de4af9c0dc98ecae8a8874dd0",
+      "destination": ".local-backup/originals/Extension/ChessMint/css/options.css",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/html/options.html",
+      "size": 4109,
+      "sha256": "a59d86f926a28874247edeec1758b7fc05406a9f11c97ea09e8f4fb281aa62bf",
+      "destination": ".local-backup/originals/Extension/ChessMint/html/options.html",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/img/logo-128.png",
+      "size": 10891,
+      "sha256": "4d760a6df4d883507558e2c4d6985e9a4f071def72fe98a735ee85973ceec0bd",
+      "destination": ".local-backup/originals/Extension/ChessMint/img/logo-128.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/img/logo-16.png",
+      "size": 1020,
+      "sha256": "d0616e858e1c16d3f816516ac2f56bed1c4aaca6e5054589b4a14bba91c083e6",
+      "destination": ".local-backup/originals/Extension/ChessMint/img/logo-16.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/img/logo-48.png",
+      "size": 3014,
+      "sha256": "236854be71a24f5fd9d71efbdac291113bd2cd7fdbe822d07747b02c7c91a1b3",
+      "destination": ".local-backup/originals/Extension/ChessMint/img/logo-48.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/img/logo-big.png",
+      "size": 132453,
+      "sha256": "5b49e8453b90c25070cb1403ad2e93c16029ef6db108e100992f21fd51ba815a",
+      "destination": ".local-backup/originals/Extension/ChessMint/img/logo-big.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/img/logo-h.png",
+      "size": 332991,
+      "sha256": "b6b81b744771356cd6fa3da19405507b5323aeb09f6318fe06fe36e91c96717e",
+      "destination": ".local-backup/originals/Extension/ChessMint/img/logo-h.png",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/chessmint.js",
+      "size": 29878,
+      "sha256": "c5de5b507ef0f09db3685a4042aaeda8bb58ff9423d84c6360fd4d889a48b5e1",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/chessmint.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/chessmint.js.map",
+      "size": 23762,
+      "sha256": "f616b89673b314243e063bbc385a06ecf9ebb50e353923d114c840e443e0e7a5",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/chessmint.js.map",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/interfaces.js",
+      "size": 53,
+      "sha256": "fde666671110a186cebbf86f854dc66cfcd3215a9f36c211b06888778681134c",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/interfaces.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/interfaces.js.map",
+      "size": 115,
+      "sha256": "8027886e05ebee24c5cb00baf593a28306d7dd07b40a99212b191c315448aed9",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/interfaces.js.map",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/loader.js",
+      "size": 1114,
+      "sha256": "7ec75fd625bf71fde1d0481896d0e1a127aec833acb494ffa19a8ed0eb2f0a6a",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/loader.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/loader.js.map",
+      "size": 1237,
+      "sha256": "de304404274e82695b256e6301c327761e50183a6db1c65141f00bd7d7da7b9c",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/loader.js.map",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/options.js",
+      "size": 4697,
+      "sha256": "8ab54d4e31a1f6a1dbc5c178836e884411db555e97482c15b436c79e818fd6ae",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/options.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/js/options.js.map",
+      "size": 3911,
+      "sha256": "02520a2c6db7f51a2d04a976ae58d4fddf17bf5d9bf3219979026547caaa7288",
+      "destination": ".local-backup/originals/Extension/ChessMint/js/options.js.map",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/ChessMint/manifest.json",
+      "size": 1051,
+      "sha256": "35d511c83e6ac5a899ba2f86e7da547fc26c7ed010ddc0c4af75cf3635dfe278",
+      "destination": ".local-backup/originals/Extension/ChessMint/manifest.json",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/final_pipeline.py",
+      "size": 21833,
+      "sha256": "6bfd00aebd4c300e9fa0d0c12d9e5e817a75ea38ca06308f2ef683f5cba4b3c6",
+      "destination": "archive/extension-prototypes/final_pipeline.py",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "Extension/stockfish.js",
+      "size": 1335754,
+      "sha256": "39d33ac9daf84fc8a0c6952bd0ee7a94af79ab9db7dcebad1058cf994914d590",
+      "destination": ".local-backup/originals/Extension/stockfish.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Extension/stockfish.wasm.js",
+      "size": 113494,
+      "sha256": "0d8765caec18b87503d771e33e50110709b4e87c2ff54b7a6952ba56e1e1d676",
+      "destination": ".local-backup/originals/Extension/stockfish.wasm.js",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "local",
+      "path": "Final Dataset.csv",
+      "size": 263239,
+      "sha256": "abc0b520476d1a3cbf66e2347d8a60dd8b162d7a317d457fa17970559ef76bcf",
+      "destination": "data/processed/final_dataset.csv",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "Mental Health Evaluation Bar.docx",
+      "size": 2072572,
+      "sha256": "396704c2ae0f1227e72267bf6cfb0773015b09138fbd960cf168692335765302",
+      "destination": "docs/history/Mental Health Evaluation Bar.docx",
+      "handling": "preserved-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "stockfish-script.py",
+      "size": 4720,
+      "sha256": "708a92fdbf6706d6ec0812fdc920318cfcad96ef7273dc01b9f8173c4abd1eda",
+      "destination": "archive/data-cleaning-code/stockfish-analysis/stockfish-script.py",
+      "handling": "deduplicated-exactly",
+      "tracked": true
+    },
+    {
+      "source": "local",
+      "path": "Test Subjects.txt",
+      "size": 221,
+      "sha256": "35a487e5e2ef356513856ee1f04c825cf443754a7c63d07317f39d30da8bfe44",
+      "destination": ".local-backup/originals/Test Subjects.txt",
+      "handling": "preserved-local-only",
+      "tracked": false
+    },
+    {
+      "source": "github-history",
+      "path": "csv-files/Compiled Dataset.csv",
+      "ref": "07c4a69ad4573b98854e5ffae6c2438fe84e6a91^",
+      "size": 277439,
+      "sha256": "cedf45d071271703bd1ca5d6207ee22b2b5849837b6bad1c3529a03e0a0de85e",
+      "destination": "data/interim/compiled_dataset_before_filtering.csv",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/Average PR/Hist-Scatterplot.py",
+      "ref": "74e42d77f2a57be8a28c0d2b2b7fbb76441dacfc^",
+      "size": 1424,
+      "sha256": "3b9c12b2b3e0d0d492e26ee0ed59e9f5da784c5f4112be626f9068d1597d0c20",
+      "destination": "archive/exploratory-data-analysis/PR-hist-scatterplot.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/Average PR/Winrate.py",
+      "ref": "74e42d77f2a57be8a28c0d2b2b7fbb76441dacfc^",
+      "size": 975,
+      "sha256": "92f82f7b635f6f41dc800df11d7649c0a21812c13f2932630d53b83e37624017",
+      "destination": "archive/exploratory-data-analysis/Winrate.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/Data Gathering/GetLocation.py",
+      "ref": "015aae1c64a81d3db58ebaa42f011ef8888eb899^",
+      "size": 102,
+      "sha256": "8a05177cccc5a0d299cb3c19126d38044ac64ec9b826f5791edaa21a1e11ac29",
+      "destination": "archive/recovered-from-history/data-cleaning-code/Data Gathering/GetLocation.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/ELO Difference/DupeRemover.py",
+      "ref": "015aae1c64a81d3db58ebaa42f011ef8888eb899^",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "destination": "archive/recovered-from-history/data-cleaning-code/ELO Difference/DupeRemover.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/ELO Difference/RatingHistogram.py",
+      "ref": "74e42d77f2a57be8a28c0d2b2b7fbb76441dacfc^",
+      "size": 1789,
+      "sha256": "b93096781dc77da4a9f39717818ea0b249391688643cc6531f5d92fc8609cad6",
+      "destination": "archive/exploratory-data-analysis/RatingHistogram.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/Game Session/ClusterHistogram.py",
+      "ref": "74e42d77f2a57be8a28c0d2b2b7fbb76441dacfc^",
+      "size": 859,
+      "sha256": "0a9f01e6187f047192da61b3de5e7548ec8866ad878337b54a3cb3d59afa8600",
+      "destination": "archive/exploratory-data-analysis/ClusterHistogram.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    },
+    {
+      "source": "github-history",
+      "path": "data-cleaning-code/Streak Record/StreakHistogram.py",
+      "ref": "74e42d77f2a57be8a28c0d2b2b7fbb76441dacfc^",
+      "size": 434,
+      "sha256": "1542ac352f31d9f5e65d46589156184027cea4c0edb9a54eb31fe6b9ab00369c",
+      "destination": "archive/exploratory-data-analysis/StreakHistogram.py",
+      "handling": "recovered-from-history",
+      "tracked": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "artifact": "models/chessica_random_forest.pkl",
+  "sha256": "d1121740c47bd87f01e4eeb0d655383a0625312de2a8c587b89e6ce0c7a9d53b",
+  "model_type": "RandomForestClassifier",
+  "feature_names": [
+    "is_white",
+    "avg_pr",
+    "sesh_cnt",
+    "elo_diff",
+    "streak"
+  ],
+  "classes": [
+    "Draw",
+    "Lose",
+    "Win"
+  ],
+  "n_estimators": 100,
+  "n_features_in": 5,
+  "feature_importances": {
+    "is_white": 0.013816725523733128,
+    "avg_pr": 0.23095213754515995,
+    "sesh_cnt": 0.1544631093370886,
+    "elo_diff": 0.2187520006578191,
+    "streak": 0.38201602693619924
+  },
+  "sklearn_version_in_artifact": "1.6.1",
+  "inspection_environment": {
+    "scikit-learn": "1.6.1",
+    "numpy": "2.2.5",
+    "pandas": "2.2.3",
+    "joblib": "1.5.1",
+    "scipy": "1.15.3"
+  },
+  "historical_notebook_accuracy": 0.7677004095962551,
+  "accuracy_status": "Stored notebook output only. Original test split and seed unavailable; not a fresh accuracy measurement or verified score for this exact artifact.",
+  "verification": "Loaded existing artifact and checked finite normalized probabilities on five dataset rows. No training performed.",
+  "sample_row_indices": [
+    0,
+    1,
+    3,
+    100,
+    1000
+  ],
+  "sample_probabilities": [
+    [
+      0.34,
+      0.0,
+      0.66
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.96,
+      0.04
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "limitations": [
+    "Streak correction remains dependent on current outcome.",
+    "Average punishment rating uses completed-game information.",
+    "No saved random seed, test split, calibration report, or training environment lock."
+  ]
+}

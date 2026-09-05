@@ -1,0 +1,33 @@
+# Local recovery material, personal notes, and original third-party downloads
+/.local-backup/
+/.recovery/
+
+# Python and notebook working files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Generated datasets and models, original baseline files remain tracked
+/data/raw/
+/data/generated/
+/models/generated/
+
+# Future extension builds and browser test output
+node_modules/
+dist/
+build/
+playwright-report/
+test-results/
+*.log
+
+# Machine-specific settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+~$*
